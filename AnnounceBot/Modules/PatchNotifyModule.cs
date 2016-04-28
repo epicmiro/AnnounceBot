@@ -124,7 +124,7 @@ namespace AnnounceBot.Modules
                         return;
                     }
 
-                    _client.Log.Log(LogSeverity.Info, "PatchNotify", "Found new patch version (" + _latestVersion + "), writing to cache and notifying servers." + content);
+                    _client.Log.Log(LogSeverity.Info, "PatchNotify", "Found new patch version (" + _latestVersion + "), writing to cache and notifying servers.");
 
                     foreach (Server server in _client.Servers)
                     {
